@@ -1,5 +1,5 @@
 <?php /** @noinspection PhpUnused */
-namespace Kodbruket\VsbridgeIndexerMsi\Plugin\ResourceModel\Product;
+namespace Kodbruket\VsbridgeIndexerMsiReservation\Plugin\ResourceModel\Product;
 
 use Divante\VsbridgeIndexerMsi\Model\GetStockIndexTableByStore;
 use Magento\Framework\App\ResourceConnection;

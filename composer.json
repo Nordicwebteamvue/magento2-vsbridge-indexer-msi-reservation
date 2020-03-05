@@ -14,7 +14,8 @@
     ],
     "require": {
       "php": ">=7.0.2",
-      "divante/magento2-vsbridge-indexer-msi": "*"
+      "divante/magento2-vsbridge-indexer-msi": "*",
+      "magento/module-inventory-reservations": ">=1.0.6"
     },
     "autoload": {
       "files": [

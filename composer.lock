@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c613daf34f0b25f5f814e4dff5906622",
+    "content-hash": "44f99a08d084530ef7ed040cd841b1ee",
     "packages": [
         {
             "name": "colinmollenhour/credis",
@@ -342,16 +342,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "cbe23383749496fe0f373345208b79568e4bc248"
+                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/cbe23383749496fe0f373345208b79568e4bc248",
-                "reference": "cbe23383749496fe0f373345208b79568e4bc248",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/1ab9842d69e64fb3a01be6b656501032d1b78cb7",
+                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +382,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2019-11-06T16:40:04+00:00"
+            "time": "2020-03-01T12:26:26+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -418,16 +418,16 @@
         },
         {
             "name": "divante/magento2-vsbridge-indexer",
-            "version": "1.10.1",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DivanteLtd/magento2-vsbridge-indexer.git",
-                "reference": "05ebbdfabd74f5e608a6d2a06c63284a5c9d4077"
+                "reference": "5d28e7974f446bba2037dbfc43a57451382d2651"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DivanteLtd/magento2-vsbridge-indexer/zipball/05ebbdfabd74f5e608a6d2a06c63284a5c9d4077",
-                "reference": "05ebbdfabd74f5e608a6d2a06c63284a5c9d4077",
+                "url": "https://api.github.com/repos/DivanteLtd/magento2-vsbridge-indexer/zipball/5d28e7974f446bba2037dbfc43a57451382d2651",
+                "reference": "5d28e7974f446bba2037dbfc43a57451382d2651",
                 "shasum": ""
             },
             "require": {
@@ -477,7 +477,7 @@
                 "magento2",
                 "vuestorefront"
             ],
-            "time": "2020-02-06T13:12:58+00:00"
+            "time": "2020-03-02T12:45:43+00:00"
         },
         {
             "name": "divante/magento2-vsbridge-indexer-msi",
@@ -937,11 +937,11 @@
         },
         {
             "name": "magento/framework",
-            "version": "102.0.3-p1",
+            "version": "102.0.4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/framework/magento-framework-102.0.3.0-patch1.zip",
-                "shasum": "b6c4bc754536a5d7c98fb687028426cab262b104"
+                "url": "https://repo.magento.com/archives/magento/framework/magento-framework-102.0.4.0.zip",
+                "shasum": "662049662281a5ca25672ea33ad18de875a17390"
             },
             "require": {
                 "colinmollenhour/php-redis-session-abstract": "~1.4.0",
@@ -952,9 +952,9 @@
                 "ext-gd": "*",
                 "ext-hash": "*",
                 "ext-iconv": "*",
+                "ext-intl": "*",
                 "ext-openssl": "*",
                 "ext-simplexml": "*",
-                "ext-spl": "*",
                 "ext-xsl": "*",
                 "guzzlehttp/guzzle": "^6.3.3",
                 "lib-libxml": "*",
@@ -2364,6 +2364,34 @@
                 ],
                 "psr-4": {
                     "Magento\\InventoryMultiDimensionalIndexerApi\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A"
+        },
+        {
+            "name": "magento/module-inventory-reservations",
+            "version": "1.0.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations/magento-module-inventory-reservations-1.0.7.0.zip",
+                "shasum": "2828010766f461ea2d25e59bac9e89f8ddaa7935"
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-inventory-reservations-api": "1.0.*",
+                "php": "~7.1.3||~7.2.0||~7.3.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryReservations\\": ""
                 }
             },
             "license": [
@@ -3970,16 +3998,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "84715761c35808076b00908a20317a3a8a67d17e"
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/84715761c35808076b00908a20317a3a8a67d17e",
-                "reference": "84715761c35808076b00908a20317a3a8a67d17e",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
                 "shasum": ""
             },
             "require": {
@@ -4008,9 +4036,9 @@
             ],
             "description": "PHAR file format utilities, for when PHP phars you up",
             "keywords": [
-                "phra"
+                "phar"
             ],
-            "time": "2020-01-13T10:41:09+00:00"
+            "time": "2020-02-14T15:25:33+00:00"
         },
         {
             "name": "symfony/console",
@@ -4085,7 +4113,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.4",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -4135,16 +4163,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.4",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3a50be43515590faf812fbd7708200aabc327ec3"
+                "reference": "ea69c129aed9fdeca781d4b77eb20b62cf5d5357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3a50be43515590faf812fbd7708200aabc327ec3",
-                "reference": "3a50be43515590faf812fbd7708200aabc327ec3",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ea69c129aed9fdeca781d4b77eb20b62cf5d5357",
+                "reference": "ea69c129aed9fdeca781d4b77eb20b62cf5d5357",
                 "shasum": ""
             },
             "require": {
@@ -4180,7 +4208,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04T13:00:46+00:00"
+            "time": "2020-02-14T07:42:58+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
